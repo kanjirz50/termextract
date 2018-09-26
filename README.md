@@ -14,7 +14,7 @@ pip install git+https://github.com/kanjirz50/termextract
 from termextract import LRValue
 from termextract.preprocessing import extract_nouns, morphemes_to_surface, MeCabTokenizer
 
-
+# https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD
 text = """「人工知能」という名前は1956年にダートマス会議でジョン・マッカーシーにより命名された。
 現在では、記号処理を用いた知能の記述を主体とする情報処理や研究でのアプローチという意味あいでも使われている。
 日常語としての「人工知能」という呼び名は非常に曖昧なものになっており、多少気の利いた家庭用電気機械器具の制御システムやゲームソフトの思考ルーチンなどがこう呼ばれることもある。"""
