@@ -15,7 +15,10 @@ setup(
     license="BSD 2-Clause",
     url="https://github.com/kanjirz50/termextract",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
-    install_requires=[],
+    install_requires=[
+        "numpy",
+        "mecab-python3"
+    ],
     dependency_links=[],
     python_requires='~=3.3',
 )

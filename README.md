@@ -1,5 +1,15 @@
 # termextract
 
+次の論文の内容を練習で実装しました。
+
+- [中川 裕志, 湯本 紘彰, 森 辰則, 出現頻度と連接頻度に基づく専門用語抽出, 自然言語処理, 2003, 10巻, 1号, p.27-45 ](https://www.jstage.jst.go.jp/article/jnlp1994/10/1/10_1_27/_article/-char/ja)
+
+## Usage
+
+```sh
+pip install git+https://github.com/kanjirz50/termextract
+```
+
 ```python
 from termextract import LRValue
 from termextract.preprocessing import extract_nouns, morphemes_to_surface, MeCabTokenizer
