@@ -25,6 +25,7 @@ compound_nouns = []
 for sentence in text.splitlines():
     tokens = tok.iter_token(sentence)
     nouns = extract_nouns(tokens)
+    # nouns = ['人工', '知能'], ['名前'], ['ダート', 'マス', '会議'], ['ジョン'], ['マッカーシー'], ['命名']]
     compound_nouns.extend(nouns)
 
 lr = LRValue()
